@@ -1,0 +1,43 @@
+.thank-you-text {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: var(--info-color);
+  border-bottom: 2px solid var(--info-color);
+  padding-bottom: 9px;
+  font-weight: 700;
+}
+
+.verify-email-text {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: #858894;
+}
+
+.verify-email-text a {
+  color: var(--info-color);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.verify-email-text a:hover {
+  color: #187ca3;
+}
+
+.resend-email-btn:hover {
+  background-color: #187ca3;
+  color: white;
+}
+
+.email-coutndown {
+  position: relative;
+}
+
+.countdown-text {
+  font-weight: 700;
+  color: rgb(37, 37, 37);
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateY(65%);
+}

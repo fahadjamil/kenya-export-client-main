@@ -1,0 +1,117 @@
+.services-steps-section {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.services__heading {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--red-color);
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.address__heading {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--red-color);
+  font-size: 30px;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+}
+
+.warehouse-address-section {
+  background-image: url("../../../shared/assets/map.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.507);
+  background-blend-mode: multiply;
+  padding: 50px 0px;
+}
+
+.warehouse-address__inner {
+  border-radius: 3px;
+  padding: 30px 40px;
+  background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: 2px 2px 6px 1px rgba(0, 0, 0, 0.308);
+}
+
+.warehouse-address__inner .row {
+  padding: 20px 0px 10px;
+  border-top: 2px solid rgb(209, 209, 209);
+  /* border-bottom: 2px solid rgb(209, 209, 209); */
+  /* margin-bottom: 10px; */
+}
+
+.warehouse-address__description {
+  font-size: 14px;
+  font-weight: normal;
+  color: black;
+  text-align: justify;
+  padding-top: 10px;
+}
+
+.warehouse-address__fields p {
+  font-size: 13px;
+  font-weight: 700;
+  color: rgb(122, 122, 122);
+  width: 100%;
+}
+
+.warehouse-address__fields p span {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: right;
+}
+
+.warehouse-address__inner i {
+  color: rgb(145, 145, 145);
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.services-detail-text__heading {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.services-detail-text__heading .services__heading {
+  margin: 0;
+}
+
+.services-detail-text__heading .bullet {
+  background-color: var(--red-color);
+  width: 8px;
+  height: 8px;
+  margin: 2px 20px 0px 10px;
+  border-radius: 100%;
+  box-shadow: 0 0 0 3px white, 0 0 0 4px rgb(133, 133, 133);
+}
+
+.services-detail-text-section .bg-white {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.096);
+}
+
+.services-detail-text-section p {
+  color: rgb(148, 148, 148);
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.collection-services__section p,
+.baggage-services__section p {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  letter-spacing: 1px;
+  text-align: justify;
+  border-top: 2px solid rgb(201, 201, 201);
+  color: rgb(94, 94, 94);
+}

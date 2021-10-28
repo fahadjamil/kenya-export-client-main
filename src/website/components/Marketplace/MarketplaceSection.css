@@ -1,0 +1,32 @@
+.img1{
+    position:absolute;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+
+}
+.img2{
+    position:absolute;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 170px;
+    font-weight: 500;
+
+}
+.img3{
+    position:absolute;
+    z-index: 100;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 400px;
+    font-weight: 500;
+
+}
+
+table{border: none;}

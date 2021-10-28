@@ -1,0 +1,43 @@
+.alert-bar {
+  background-color: rgb(255, 255, 255);
+  margin: 0px 15px;
+  padding: 10px 20px;
+  border-left: 4px solid rgb(207, 12, 12);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.alert-bar path,
+.alert-bar svg {
+  color: rgb(207, 12, 12);
+}
+.alert-bar p {
+  margin: 0;
+  font-weight: bold;
+  padding-left: 10px;
+  color: rgb(207, 12, 12);
+}
+
+.alert-bar.info {
+  background-color: rgb(255, 255, 255);
+  border-left: 4px solid var(--info-color);
+}
+
+.alert-bar.success {
+  background-color: rgb(237, 244, 240);
+  border-left: 4px solid green;
+}
+
+.alert-bar.info path,
+.alert-bar.info svg,
+.alert-bar.info p {
+  color: var(--info-color);
+}
+
+.alert-bar.success path,
+.alert-bar.success svg,
+.alert-bar.success p {
+  color: green;
+}

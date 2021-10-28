@@ -1,0 +1,23 @@
+.shipment-detail-section span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shipment-detail-section span p:first-child {
+  font-weight: bold;
+  /* color: var(--info-color); */
+}
+
+.inner-card {
+  background-color: rgb(222, 229, 233);
+  padding: 2px 20px;
+  border-radius: 3px;
+}
+
+.link-btn {
+  color: #ffffff;
+}
+
+.link-btn:hover {
+  color: #ffffff;
+}

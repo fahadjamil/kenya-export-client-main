@@ -1,0 +1,76 @@
+.about-info-section {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.about-info-bullets {
+  padding-bottom: 50px;
+}
+
+.about-info-bullets h1 {
+  color: var(--red-color);
+  font-weight: 900;
+}
+
+.about-info-bullets p {
+  font-weight: 500;
+  color: rgb(71, 71, 71);
+}
+
+.about-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-list ul li {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: rgb(161, 161, 161);
+}
+
+.about-list ul li:before {
+  content: "✔";
+  color: #bd0000;
+  font-size: 1.3rem;
+  padding-right: 10px;
+}
+
+.about-info-card img {
+  width: 100%;
+}
+
+.about-info-card-heading {
+  color: rgb(150, 150, 150);
+  font-weight: 700;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid rgb(150, 150, 150);
+  display: flex;
+  align-items: center;
+  transition: 500ms;
+}
+
+.about-info-card-heading svg,
+.about-info-card-heading path {
+  margin-right: 10px;
+  fill: var(--red-color);
+}
+
+.about-info-card-text {
+  text-align: justify;
+  color: rgb(121, 121, 121);
+  transition: 500ms;
+  font-size: 0.9rem;
+}
+
+.about-info-card:hover .about-info-card-heading {
+  border-bottom-color: var(--red-color);
+  transition: 500ms;
+  color: var(--red-color);
+}
+
+.about-info-card:hover .about-info-card-text {
+  color: black;
+  transition: 500ms;
+}

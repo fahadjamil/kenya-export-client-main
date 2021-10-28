@@ -1,0 +1,49 @@
+.very-top-bar {
+  background-color: rgb(31, 31, 32);
+  color: white;
+  padding: 10px 40px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.very-top-bar p,
+.very-top-bar a {
+  font-size: 0.8rem;
+}
+
+.very-top-bar p a,
+.very-top-bar div a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.very-top-bar.active {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .very-top-bar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .very-top-bar p,
+  .very-top-bar a {
+    font-size: 0.7rem;
+  }
+}
+
+.social-icon {
+  margin: 0px 5px;
+}
+
+.social-icon:hover {
+  fill: var(--red-color);
+  cursor: pointer;
+}

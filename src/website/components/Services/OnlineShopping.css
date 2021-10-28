@@ -1,0 +1,35 @@
+.online-shopping-section {
+  background-color: rgb(234, 239, 243);
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.online-shopping-section .row {
+  align-items: center;
+}
+
+.online-shopping-section .image {
+  width: 600px;
+}
+
+.online-shopping-section h1 {
+  color: var(--red-color);
+  font-weight: 900;
+}
+
+@media screen and (max-width: 992px) {
+  .online-shopping-section .image {
+    width: 400px;
+  }
+
+  .online-shopping-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .online-shopping-section .image {
+    width: 100%;
+  }
+}

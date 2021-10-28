@@ -1,0 +1,89 @@
+@media screen and (min-width: 992px) {
+  .dashboard-gradient-card-outer:not(:last-of-type) {
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dashboard-gradient-card-outer {
+    padding-right: 15px;
+  }
+  .dashboard-gradient-card-outer:not(:last-of-type) {
+    padding-right: 15px;
+  }
+}
+
+.dashboard-gradient-card {
+  background: var(--purple-gradient);
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #fff;
+  box-shadow: 3px 3px 8px #00000020;
+}
+
+.dashboard-gradient-card.orange {
+  background: var(--orange-gradient);
+}
+
+.dashboard-gradient-card.blue {
+  background: var(--blue-gradient);
+}
+
+.gradient-card-inner-icon {
+  position: relative;
+}
+
+.bg-icon-div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.bg-icon-div svg,
+.bg-icon-div path {
+  height: 250px;
+  width: 250px;
+  opacity: 0.35;
+}
+
+.gradient-card-heading div {
+  background-color: rgba(255, 255, 255, 0.308);
+  padding: 5px 10px;
+}
+
+.gradient-card-heading p {
+  padding-left: 15px;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.info-cell {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.info-cell h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.info-cell p {
+  border-left: 3px solid rgb(255, 255, 255);
+  padding: 0px 20px;
+  margin: 7px 0px;
+  font-size: 0.85rem;
+}
+
+.info-cell div {
+  padding: 10px 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.info-cell div p {
+  border-left: 0;
+  padding: 0px;
+  margin: 0;
+}
+
+.info-cell a {
+  color: white;
+}

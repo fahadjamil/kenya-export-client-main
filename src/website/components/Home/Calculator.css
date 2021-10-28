@@ -1,0 +1,380 @@
+.calculator-section {
+  display: flex;
+  justify-content: center;
+}
+
+.quote-btn {
+  background-color: transparent;
+  border: 1.5px solid white;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 3rem;
+  padding: 0px 30px;
+  height: 40px;
+  width: 200px;
+  transition: 1000ms;
+}
+
+.quote-btn.red {
+  color: var(--red-color);
+  border: 1.5px solid var(--red-color);
+}
+
+.quote-btn.red:hover {
+  background-color: rgb(255, 206, 206);
+}
+
+.quote-btn:hover {
+  background-color: rgba(0, 0, 0, 0.678);
+  transition: 1000ms;
+}
+
+.quote-btn.inactive {
+  width: 480px;
+  transition: 1000ms;
+  opacity: 0;
+  display: none;
+}
+
+.get-quote-btns.inactive {
+  display: none;
+  opacity: 0;
+  transition: 1000ms;
+}
+
+.get-quote-btns {
+  opacity: 1;
+  transition: 1000ms;
+}
+
+.get-quote-text {
+  background-color: white;
+  color: #bd0000;
+  width: 160px;
+  font-size: 1.1rem;
+  padding: 0px;
+  margin: 0;
+  border: 1.5px solid white;
+  font-weight: bold;
+  height: 40px;
+}
+
+.get-quote-btns.red .get-quote-text {
+  background-color: var(--red-color);
+  border: 1.5px solid var(--red-color);
+  color: white;
+}
+
+.by-plane-btn {
+  width: 160px;
+  font-size: 1.1rem;
+  padding: 0px;
+  height: 40px;
+  background-color: transparent;
+  margin: 0;
+  border: 1.5px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+.by-ship-btn {
+  width: 160px;
+  font-size: 1.1rem;
+  padding: 0px;
+  height: 40px;
+  background-color: transparent;
+  margin: 0;
+  border: 1.5px solid white;
+  font-weight: bold;
+  color: white;
+}
+
+.get-quote-btns button:focus {
+  outline: none;
+}
+
+.by-ship-btn,
+.submit-btn,
+.email-btn {
+  border-bottom-right-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+.get-quote-btns.red .by-plane-btn,
+.get-quote-btns.red .by-ship-btn {
+  border: 1.5px solid var(--red-color);
+  color: var(--red-color);
+}
+
+.get-quote-btns.red .by-plane-btn:hover,
+.get-quote-btns.red .by-ship-btn:hover {
+  background-color: rgb(255, 206, 206);
+}
+
+.by-ship-btn:hover {
+  background-color: rgba(0, 0, 0, 0.678);
+  transition: 1000ms;
+}
+
+.by-plane-btn:hover {
+  background-color: rgba(0, 0, 0, 0.678);
+  transition: 1000ms;
+}
+
+.quote-btn:focus,
+.weight-input:focus,
+.length-input:focus,
+.width-input:focus,
+.height-input:focus,
+.submit-btn:focus,
+.weight-unit-select:focus,
+.actual-weight:focus,
+.volumetric-weight:focus,
+.total-cost:focus,
+.email-btn:focus {
+  outline: none;
+}
+
+.calculate-form.inactive {
+  display: none;
+}
+
+.calculate-form.red .weight-input,
+.calculate-form.red .length-input,
+.calculate-form.red .width-input,
+.calculate-form.red .height-input {
+  background-color: transparent;
+  border: 1.5px solid var(--red-color);
+  color: black;
+}
+
+.calculate-form.red .weight-input:focus,
+.calculate-form.red .length-input:focus,
+.calculate-form.red .width-input:focus,
+.calculate-form.red .height-input:focus {
+  background-color: rgb(255, 206, 206);
+}
+
+.weight-input,
+.length-input,
+.width-input,
+.height-input,
+.submit-btn,
+.actual-weight,
+.volumetric-weight,
+.total-cost,
+.email-btn {
+  height: 40px;
+}
+
+.weight-input,
+.length-input,
+.width-input,
+.height-input,
+.actual-weight,
+.volumetric-weight,
+.total-cost {
+  background-color: rgba(0, 0, 0, 0.486);
+  border: 1.5px solid white;
+  color: white;
+  padding: 0px 20px;
+  width: 180px;
+}
+
+.weight-input,
+.actual-weight,
+.get-quote-text {
+  border-bottom-left-radius: 3rem;
+  border-top-left-radius: 3rem;
+}
+
+.weight-unit-select {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 0px 10px;
+  height: 40px;
+  font-size: 1.2rem;
+  border-bottom: 4px solid white;
+  border-left: 1.5px solid white;
+  border-right: 1.5px solid white;
+  border-top: 0.5px solid white;
+}
+
+.submit-btn,
+.email-btn {
+  background-color: white;
+  color: #bd0000;
+  border: 1.5px solid white;
+  padding: 0px 20px 0px 10px;
+  font-weight: bold;
+}
+
+.calculate-form.red .submit-btn {
+  background-color: var(--red-color);
+  border: 1.5px solid var(--red-color);
+  color: white;
+}
+
+.submit-btn:hover,
+.email-btn:hover {
+  color: black;
+  background-color: aliceblue;
+  transition: 500ms;
+}
+
+.calculator-response.inactive {
+  display: none;
+}
+
+.calculator-response.active {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.calculator-response.red .actual-weight,
+.calculator-response.red .volumetric-weight,
+.calculator-response.red .total-cost {
+  background-color: transparent;
+  border: 1.5px solid var(--red-color);
+  color: black;
+}
+
+.calculator-response.red .email-btn {
+  background-color: var(--red-color);
+  border: 1.5px solid var(--red-color);
+  color: white;
+}
+
+.calculator-section {
+  padding-bottom: 100px;
+}
+
+.input-pos-relative {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-pos-relative input {
+  z-index: 0;
+  width: max-content;
+}
+
+.input-pos-relative label {
+  z-index: 1;
+  text-align: right;
+  font-size: 0.7rem;
+  width: 100px;
+  padding-right: 12px;
+  margin-bottom: 0px;
+  margin-left: -100px;
+}
+
+.email-input.inactive {
+  display: none;
+}
+
+.email-input input {
+  background-color: rgba(0, 0, 0, 0.486);
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 5px 20px;
+  color: white;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+
+.email-input.red input {
+  background-color: transparent;
+  border: 1.5px solid var(--red-color);
+  color: black;
+}
+
+.send-email-btn {
+  background-color: white;
+  border: 0;
+  display: flex;
+  align-items: center;
+  color: var(--red-color);
+  font-weight: bold;
+  padding: 0px 15px;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.email-input.red .send-email-btn {
+  background-color: var(--red-color);
+  border: 1.5px solid var(--red-color);
+  color: white;
+}
+
+.send-email-btn:hover {
+  color: black;
+}
+
+.send-email-btn svg {
+  margin-left: 5px;
+}
+
+.email-input input:focus {
+  border-color: var(--red-color);
+  outline: none;
+}
+
+.reset-btn {
+  border-radius: 2rem;
+  height: 35px;
+  width: 35px;
+  margin: 2px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  border: 2px solid white;
+  outline: none;
+}
+
+.reset-btn.red {
+  background-color: var(--red-color);
+}
+
+.reset-btn path,
+.reset-btn svg {
+  color: var(--red-color);
+}
+
+.reset-btn.red path,
+.reset-btn.red svg {
+  color: white;
+}
+
+.reset-btn:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 600px) {
+  .calculator-section button,
+  .calculator-section input,
+  .calculator-section select {
+    margin: 5px;
+    border-radius: 2rem;
+  }
+
+  /* .calculator-section button {
+    padding: 0px 25px;
+  } */
+
+  .input-pos-relative label {
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .calculator-section {
+    padding-bottom: 0px;
+  }
+}

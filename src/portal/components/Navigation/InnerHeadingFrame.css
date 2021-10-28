@@ -1,0 +1,23 @@
+.listing-view-frame {
+  position: relative;
+}
+
+.listing-heading-text {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  left: 0;
+  z-index: -10;
+}
+
+.listing-inner-wrapper {
+  padding-top: 60px;
+  margin-bottom: 50px;
+}
+
+.listing-heading-text h5,
+.listing-heading-text path {
+  color: #b7c2c4;
+  font-size: 30px;
+  font-weight: 600;
+}

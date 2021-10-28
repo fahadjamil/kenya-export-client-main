@@ -1,0 +1,121 @@
+.main-profile {
+  text-align: center;
+}
+
+.edit-btn {
+  color: #ffffff;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: var(--info-color);
+  border: none;
+  border-radius: 5px;
+  transition: 500ms;
+  outline: none;
+}
+
+.profile-name {
+  color: var(--info-color);
+  text-align: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.profile-name.active {
+  border-bottom: 0.08rem solid rgb(143, 143, 143);
+  background-color: #f5f5f5;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-image-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic-btns {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin-top: 10px;
+}
+
+.profile-pic-btns .btn-light {
+  border-radius: 0.5rem;
+}
+
+.profile-pic-small-btns {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+.profile-image-submit,
+.profile-image-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  border-radius: 3rem;
+  box-shadow: 2px 0px 10px 2px rgba(0, 0, 0, 0.267);
+}
+
+.profile-image-icon {
+  border: 0;
+  outline: none;
+  width: 40px;
+}
+
+.profile-image-icon:focus {
+  outline: none;
+}
+
+.profile-image-submit {
+  border: 0;
+  outline: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile-image-icon:focus .profile-image-submit:focus {
+  outline: none;
+}
+
+.profile-image-icon svg {
+  fill: white;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 0.6rem solid #d8dbdd;
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.edit-btn:hover {
+  background-color: var(--info-hover);
+  transition: 500ms;
+  outline: none;
+}
+
+.cancel-btn {
+  color: #79858c;
+  padding: 5px 5px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: #dcdcdc;
+  border: none !important;
+  border-radius: 5px;
+}
+
+.edit-btn:hover,
+.cancel-btn:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,50 @@
+.custom-icon-card {
+  position: relative;
+  border-radius: 5px;
+  display: block;
+  flex-direction: column;
+  padding: 30px 30px 20px;
+  background-color: white;
+  min-height: 210px;
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.13);
+}
+
+.custom-icon-card__corner-text {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: white;
+  padding: 5px 35px 5px 15px;
+  background-color: var(--red-color);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 5px;
+}
+
+.custom-icon-card__icon svg,
+.custom-icon-card__icon path {
+  color: #b9b9b9;
+  transition: 500ms;
+}
+
+.custom-icon-card__icon svg:hover,
+.custom-icon-card__icon path:hover {
+  color: var(--red-color);
+  transition: 500ms;
+}
+
+.custom-icon-card__heading {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: var(--red-color);
+  text-transform: uppercase;
+}
+
+.custom-icon-card__text {
+    font-size: 13px;
+    color: rgb(107, 107, 107);
+}

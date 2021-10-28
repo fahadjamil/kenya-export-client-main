@@ -1,0 +1,39 @@
+.shipmentSteps-card-section {
+  margin: 30px;
+}
+
+.top-steps-section {
+  padding: 40px 0px;
+  background-color: rgb(215, 222, 228);
+}
+
+.top-steps-section h3,
+.top-steps-section h5 {
+  color: var(--red-color);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.top-steps-section p {
+  line-height: 25px;
+}
+
+.shipmentSteps-card-section .card {
+  border: none;
+}
+
+.shipmentSteps .heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--red-color);
+}
+
+.shipmentSteps .card-title {
+  color: var(--red-color);
+  letter-spacing: 1px;
+}
+
+.shipmentSteps .card-text {
+  color: rgb(46, 46, 46);
+}

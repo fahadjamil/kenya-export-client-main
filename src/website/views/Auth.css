@@ -1,0 +1,19 @@
+.auth-logo {
+  width: 60%;
+}
+
+.login-image {
+  width: 100%;
+}
+
+.signup-image {
+  width: 100%;
+}
+
+.auth-submit-txt {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 20px 0px;
+  color: #ffffff;
+}

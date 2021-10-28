@@ -1,0 +1,38 @@
+.accordian-card {
+  margin-bottom: 20px;
+  box-shadow: 5px 1px 15px 0px rgb(0 0 0 / 10%), 0 1.5px 5px 0 rgb(0 0 0 / 10%);
+  background-color: #fff;
+  border-radius: 10px ;
+}
+.accordian-header {
+  background-color: #fff;
+}
+.accordian-button {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  color: #9a9a9a;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.accordian-button:hover {
+  color: #9a9a9a;
+}
+.card-body {
+  color: #9a9a9a;
+}
+.accordian-button:before {
+  content: "\2212";
+  color: #bd0000;
+  font-weight: 900;
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+.QAList .collapsed:before {
+  content: "\002B";
+}

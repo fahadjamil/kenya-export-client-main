@@ -1,0 +1,106 @@
+.testimonial-card-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.img-height {
+  height: 400px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: rgb(53, 53, 53);
+  background-blend-mode: multiply;
+}
+.SlideHead {
+  color: #fff;
+  text-align: center;
+  padding-top: 13%;
+}
+.card-section {
+  height: 500px;
+}
+div.scroll-menu {
+  overflow-x: auto;
+  white-space: nowrap;
+  height: inherit;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scroll-menu::-webkit-scrollbar {
+  display: none;
+}
+
+div.scroll-menu div.scroll-card {
+  display: inline-grid;
+  box-shadow: 5px 5px 17px 4px rgb(0 0 0 / 10%), 0 3px 10px 0 rgb(0 0 0 / 10%);
+  color: #9a9a9a;
+  padding: 70px 20px 90px 20px;
+  width: 430px;
+  height: 450px;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+  margin: 20px 0px;
+  background-color: white;
+}
+
+.card-section:hover .arrow-right {
+  transition: 500ms ease-out;
+  right: 100px;
+  opacity: 1;
+}
+.card-section:hover .arrow-left {
+  transition: 500ms ease-out;
+  left: 100px;
+  opacity: 1;
+}
+
+.arrow-right {
+  padding: 20px;
+  border-radius: 60px;
+  background-color: #bd0000;
+  color: #fff;
+  right: 600px;
+  top: 250px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+.arrow-left {
+  padding: 20px;
+  border-radius: 60px;
+  background-color: #bd0000;
+  color: #fff;
+  left: 600px;
+  top: 250px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.4);
+}
+.card-heading {
+  color: #bd0000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.card-heading-detail {
+  font-size: 15px;
+}
+.card-stars {
+  color: #f3cc30;
+}
+.card-paragraph {
+  font-size: 20px;
+}
+
+.card-logo {
+  background-color: #bd0000;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0 20px 0 0;
+}

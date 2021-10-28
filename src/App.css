@@ -1,0 +1,124 @@
+:root {
+  --red-color: #bd0000;
+  --green-color: #23ad44;
+  --info-color: #0889ad;
+  --info-hover: #064a64;
+  --purple-gradient: transparent
+    linear-gradient(149deg, #8e73ec 0%, #40a1e9 100%) 0% 0% no-repeat
+    padding-box;
+  --orange-gradient: transparent
+    linear-gradient(124deg, #ff8360 0%, #f761a8 100%) 0% 0% no-repeat
+    padding-box;
+  --blue-gradient: transparent linear-gradient(125deg, #40a1e9 0%, #39d2c0 100%)
+    0% 0% no-repeat padding-box;
+  --info-gradient: linear-gradient(to right, #35c1e8, #0889ad);
+  --info-gradient-hover: linear-gradient(to right, #26a4c7, #026681);
+}
+
+mark {
+  background-color: yellow;
+  border-radius: 3px;
+}
+
+mark.inactive {
+  background-color: transparent;
+  color: inherit;
+}
+
+.arrow-hover-btn {
+  background-color: white;
+  color: var(--red-color);
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 8px 30px;
+  letter-spacing: 1px;
+  position: relative;
+  width: 160px;
+  height: 40px;
+  transition: 500ms;
+  box-shadow: 0px 3px 1px -2px rgb(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgb(0, 0, 0, 0.14), 2px 1px 5px 5px rgb(0, 0, 0, 0.05);
+}
+
+.arrow-hover-btn a {
+  color: var(--red-color);
+}
+
+.arrow-hover-btn.red {
+  background-color: var(--red-color);
+}
+
+.apply-btn-text {
+  font-size: 1rem;
+  padding: 0;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  right: 0;
+  transition: 500ms;
+}
+
+.apply-btn-text.red,
+.arrow-btn-icon.red {
+  color: white;
+}
+
+.arrow-btn-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-400%, 75%);
+  transition: 500ms;
+  opacity: 0;
+}
+
+.arrow-hover-btn:hover {
+  transition: 500ms;
+}
+
+.arrow-hover-btn:hover .apply-btn-text {
+  transition: 500ms;
+  right: 30px;
+}
+
+.arrow-hover-btn:hover .arrow-btn-icon {
+  transform: translate(-140%, 75%);
+  opacity: 1;
+  transition: 500ms;
+}
+
+.info-gradient-btn {
+  background: var(--info-gradient);
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 8px 20px;
+}
+
+.info-gradient-btn:hover {
+  background: var(--info-gradient-hover);
+  color: white;
+}
+
+.form-heading {
+  padding: 10px 20px;
+  margin: 20px 0px 10px 0px;
+  font-size: 16px;
+  background-color: rgb(237, 241, 244);
+  margin-bottom: 20px;
+  color: var(--info-color);
+  font-weight: 700;
+  border-left: 4px solid var(--info-color);
+  letter-spacing: 1.2px;
+  display: flex;
+  align-items: center;
+}
+
+.list-search-bar {
+  border-radius: 5px;
+  border: 1px solid rgb(216, 216, 216);
+  outline: none;
+  margin-right: 15px;
+  padding: 8px 15px;
+}

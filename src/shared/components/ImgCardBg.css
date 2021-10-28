@@ -1,0 +1,52 @@
+.contain {
+  background-image: url("../assets/background-01.jpg");
+  background-color: azure;
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow-y: hidden;
+}
+
+.contain-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+  height: 100%;
+}
+
+.main-card {
+  background-color: #ffffff;
+  border-radius: 1.2rem;
+  box-shadow: -3px 3px 14px 0px #0000002b;
+  padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+.main-card.lg {
+  width: 80%;
+}
+
+.main-card.md {
+  width: 60%;
+}
+
+.main-card.sm {
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .contain-inner {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contain-inner {
+    padding: 0;
+  }
+}

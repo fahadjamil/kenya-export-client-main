@@ -1,0 +1,12 @@
+.collection-update-item .postcode {
+  color: var(--info-color);
+}
+
+.collection-update-item path,
+.collection-update-item path {
+  fill: var(--info-color);
+}
+
+.collection-update-item h5 {
+  font-size: 16px;
+}

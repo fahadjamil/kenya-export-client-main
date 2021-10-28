@@ -1,0 +1,19 @@
+.next-day-section {
+  background-image: url("../../../shared/assets/logistic.png");
+  background-position: center center;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  padding: 60px 0px;
+  color: white;
+}
+
+.next-day-section h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.next-day-section p {
+  font-size: 1.4rem;
+}

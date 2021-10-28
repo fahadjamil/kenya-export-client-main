@@ -1,0 +1,96 @@
+.portal-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.portal-header .row {
+  box-shadow: 0px 0px 14px #b5b5b5;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+.portal-content {
+  padding-top: 60px;
+  height: 100%;
+}
+
+.portal-sidebar {
+  width: 10%;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  top: 0px;
+  bottom: 0px;
+  border-right: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.portal-sidebar,
+.sidebar-section {
+  scrollbar-color: #888;
+  scrollbar-width: thin;
+}
+.portal-sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-section::-webkit-scrollbar {
+  width: 3px;
+}
+
+.portal-sidebar::-webkit-scrollbar-track,
+.sidebar-section::-webkit-scrollbar-track {
+  background: #e6e6e6;
+}
+
+.portal-sidebar::-webkit-scrollbar-thumb,
+.sidebar-section::-webkit-scrollbar-thumb {
+  background: rgb(160, 164, 170);
+}
+
+.portal-body {
+  width: 90%;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .portal-sidebar .sidebar-section {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .portal-sidebar .sidebar-section li a p {
+    font-size: 0.6rem;
+  }
+
+  .portal-sidebar .sidebar-section li a {
+    border-width: 2px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .portal-sidebar {
+    width: 0%;
+    z-index: 9999;
+  }
+
+  .portal-sidebar.show .sidebar-section {
+    position: inherit;
+    transform: translate(0px, 0px);
+    margin: 0;
+    width: 20%;
+    border-radius: 0px;
+    padding: 10px 0px;
+    height: 100vh;
+    border: none;
+    box-shadow: 5px 0px 8px 0px rgba(0, 0, 0, 0.219);
+    overflow-y: auto;
+  }
+
+  .portal-body {
+    width: 100%;
+  }
+}

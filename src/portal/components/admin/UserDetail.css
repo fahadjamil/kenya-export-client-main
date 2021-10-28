@@ -1,0 +1,63 @@
+.main-profile {
+  text-align: center;
+}
+
+.edit-btn {
+  color: #ffffff;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: var(--info-color);
+  border: none;
+  border-radius: 5px;
+  transition: 500ms;
+  outline: none;
+}
+
+.profile-name {
+  color: var(--info-color);
+  text-align: center;
+  border: 0;
+  background-color: transparent;
+}
+
+.profile-name.active {
+  border-bottom: 0.08rem solid rgb(143, 143, 143);
+  background-color: #f5f5f5;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.profile-image-icon svg {
+  fill: white;
+}
+
+.edit-btn:hover {
+  background-color: var(--info-hover);
+  transition: 500ms;
+  outline: none;
+}
+
+.cancel-btn {
+  color: #79858c;
+  padding: 5px 5px;
+  width: 120px;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: #dcdcdc;
+  border: none !important;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.edit-btn:hover,
+.cancel-btn:hover {
+  opacity: 0.8;
+}
+
+.role-badge {
+  font-size: 16px;
+  margin: 10px 0px;
+}

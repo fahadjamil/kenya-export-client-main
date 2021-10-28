@@ -1,0 +1,75 @@
+.rev-card {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  font-size: smaller;
+  padding: 20px 30px;
+  box-shadow: 3px 3px 8px #00000020;
+}
+
+.rev-card:hover {
+  cursor: pointer;
+}
+
+.rev-heading h5 {
+  color: #8598ad;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.rev-title .days-num.month {
+  background-color: #ef627a;
+}
+
+.rev-title .days-num.week {
+  background-color: #b9cef9;
+}
+
+.rev-title .days-num.today {
+  background-color: #5ec394;
+}
+
+.rev-title .days-num.year {
+  background-color: #203459;
+}
+
+.rev-title .days-num {
+  background-color: #203459;
+}
+
+.days-num {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days-num p {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  margin: auto;
+}
+
+.text-item:first-of-type {
+  color: #9b9b9c;
+}
+
+.text-item:last-of-type {
+  color: #203459;
+}
+
+.text-item.profit {
+  color: #5ec394;
+}
+
+.text-item.loss {
+  color: red;
+}
+
+.text-item.profit {
+  color: #07b34f;
+}

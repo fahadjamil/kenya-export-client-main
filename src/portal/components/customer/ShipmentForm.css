@@ -1,0 +1,161 @@
+.form-box {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid rgb(226, 226, 226);
+  color: #858383;
+  box-shadow: -4px 3px 5px #0000001f;
+}
+.main-form-heading {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  color: var(--info-color);
+  font-weight: 650;
+  letter-spacing: 1.5px;
+}
+
+.form-heading svg {
+  color: var(--green-color);
+  padding: 0;
+  transform: rotate(270deg);
+}
+
+.input-labels {
+  padding: 3px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #858383;
+}
+.Receiver-selector {
+  padding: 6px;
+  width: 150px;
+  border: 1px solid #858383;
+  box-shadow: none;
+}
+.input-field {
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 0px;
+  margin-left: 10px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.progress-bar-outer {
+  height: 15px;
+  width: 100%;
+  background-color: #dbd7d7;
+  border-radius: 20px;
+}
+.progress-bar-inner1 {
+  height: 15px;
+  width: 25%;
+  background-color: rgb(72, 201, 72);
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  display: none;
+}
+.progress-bar-inner2 {
+  height: 15px;
+  width: 55%;
+  background-color: rgb(72, 201, 72);
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  display: none;
+}
+.progress-bar-inner3 {
+  height: 15px;
+  width: 75%;
+  background-color: rgb(72, 201, 72);
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  display: none;
+}
+.progress-bar-inner4 {
+  height: 15px;
+  width: 100%;
+  background-color: rgb(72, 201, 72);
+  border-radius: 20px;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
+
+/* .form-box button {
+  font-size: 14px;
+  font-weight: bold;
+} */
+
+.shipment-items-table {
+  width: 100%;
+}
+
+.shipment-items-table td,
+.shipment-items-table th {
+  padding: 8px;
+}
+
+.shipment-items-table tr {
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.shipment-items-table tr:last-child {
+  border-bottom: none;
+}
+
+.shipment-items-table th {
+  border-bottom: 1px solid #a8a8a8;
+  color: var(--info-color);
+  font-size: 14px;
+}
+
+.add-item-form {
+  background-color: rgb(240, 244, 247);
+  padding: 10px 20px;
+}
+
+.item-collapse-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(226, 231, 236);
+  outline: none;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.item-collapse-btn:focus {
+  outline: none;
+}
+
+.item-table-section {
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: #f4f7fa;
+}
+
+.shipment-submit-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0px 20px;
+}
+
+.shipment-submit-row .form-check-input {
+  width: 18px;
+  height: 18px;
+  background-color: var(--info-color);
+}
+
+.form-check-label {
+  font-size: 17px;
+  font-weight: 400;
+}

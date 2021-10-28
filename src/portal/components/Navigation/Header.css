@@ -1,0 +1,22 @@
+.search-bar {
+  border-radius: 30px;
+  height: 28px;
+  width: 150px;
+  font-size: small;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+
+.portal-hamburger {
+  display: none;
+}
+
+.portal-hamburger:focus {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .portal-hamburger {
+    display: block;
+  }
+}
