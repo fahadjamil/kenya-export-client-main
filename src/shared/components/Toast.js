@@ -8,7 +8,7 @@ const Toast = (props) => {
   const showHandler = () => {
     props.setShow((prevMode) => !prevMode);
   };
-
+//
   useEffect(() => {
     if (props.show) {
       setTimeout(() => {
